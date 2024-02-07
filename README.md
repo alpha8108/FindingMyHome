@@ -1,4 +1,3 @@
-
 # 프로젝트 배경 🏚️
  - 대한민국의 서울의 집값은 굉장히 비싸기 때문에 서울에서 집을 알아보는 입장이라면 시세를 정확히 알고 원하는 지역과 원하는 컨디션의 집을 자세히 알아봐야하는데 직접 모든 집의 시세를
    일일히 발품을 팔기엔 시간이 많이 소요될 것입니다.  
@@ -13,13 +12,13 @@
 - 원주성  : 깃허브 주소 공유 
 - 곽정근  : 깃허브 주소 공유 
   
-## 1. 본 프로젝트에서 사용한 주요 개발환경 ![파이썬](https://img.shields.io/badge/-Python-007396?style=flat&logo=Java&logoColor=ffffff) ![스트림릿](https://img.shields.io/badge/-Streamlit-007396?style=flat&logo=Java&logoColor=ffffff)
+## 1. 본 프로젝트에서 사용한 주요 개발환경 ![파이썬](https://img.shields.io/badge/-Python-007396?style=flat&logo=Java&logoColor=ffffff) ![Streamlit](https://img.shields.io/badge/-Streamlit-3178C6?style=flat-square&logo=Streamlit&logoColor=red)
   - OS : Windows 10 & Mac (Linux에서는 테스트 하지 않았습니다.)
   - Programming Languages : Python(ver. 3.12.1)
   - Web Framework : Streamlit (ver. 1.31.0)
 
 ## 주요 라이브러리 버전
-  + [requirements.txt](requirements.txt) 파일 참조
+  + [requirements.txt](requirements.txt) 파일 참조 (수정해야함) 
   + 라이브러리 버전(참고용)
 ```
 pandas==2.2.0
@@ -37,11 +36,11 @@ streamlit-option-menu==0.3.12
 
 # 데모페이지
 - Streamlit에서 구현한 Demo는 다음과 같습니다.
-  + https://prj-seoulrealestate-jgp.streamlit.app/
+  + https://prj-seoulrealestate-jgp.streamlit.app/ (일단 지건님 페이지 넣어놓은것) 
  
 
- ## 주요 기능
- - 본 프로젝트에서 자체 개발 및 활용한 주요 메서드는 다음과 같습니다.
+ # 주요 기능(수정해야함)
+ - 본 프로젝트에서 자체 개발 및 활용한 주요 메서드는 다음과 같습니다. 
 
 | Functions | Location | Description |
 |---|---|---|
@@ -59,10 +58,16 @@ def main():
 ### data_collect()
 -  data_collect() 함수는 ~~~~
 
-# 발표자료 PDF 
+# 발표자료 PDF (수정해야함) 
 - 발표자료 PDF는 아래와 같습니다.
   + [00발표자료_2024](portfolio.pdf)
 
 
+# Release Notes (수정해야함) 
+- 개발 릴리스 노트는 `Releases` 클릭하여 확인하여 주시기를 바랍니다.
+  + 참조 : https://github.com/dschloe/streamlit-api/releases
+  + 작성방법 : https://docs.github.com/ko/repositories/releasing-projects-on-github/managing-releases-in-a-repository
 
-## 5. Release Notes
+# License (수정해야함) 
+- 라이선스 링크 아웃링크로 처리
+- [MIT Licence](LICENSE) 
