@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- encoding:utf-8 -*-
 
 import streamlit as st
@@ -29,6 +30,15 @@ def load_data():
     data['평수'] = data['RENT_AREA'] * 0.3025
     data['BLDG_NM'] = data['BLDG_NM'].fillna(data['HOUSE_GBN_NM'])
     return data
+=======
+import streamlit as st 
+import pandas as pd 
+import requests 
+import json 
+import pandas as pd 
+from data_collect import load_data
+
+>>>>>>> 16d1585474b7bc47f2faebcc9e4e76a67f031d23
 
 # 임대료 보증금 평균 그래프
 def plot_graph(data, x, y1, y2=None, secondary_y=False, title=''):
