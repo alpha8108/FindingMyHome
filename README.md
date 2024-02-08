@@ -102,4 +102,4 @@ def send_email(name, email, inquiry_type, inquiry_details):
   + [portfolio.pdf](https://github.com/alpha8108/mulcamp240202/blob/main/portfolio.pdf)
   
 ## License
-- [MIT Licence](링크)
+- [MIT Licence](https://github.com/alpha8108/FindingMyHome/blob/main/LICENSE.md)
