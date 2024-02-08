@@ -102,9 +102,6 @@ def send_email(name, email, inquiry_type, inquiry_details):
 
 ## Release Notes
 - 개발 릴리스 노트는 `Releases` 클릭하여 확인하여 주시기를 바랍니다.
-  + 참조 : https://github.com/dschloe/streamlit-api/releases
-  + 작성방법 : https://docs.github.com/ko/repositories/releasing-projects-on-github/managing-releases-in-a-repository
-
+  
 ## License
-- 라이선스 링크 아웃링크로 처리
 - [MIT Licence](LICENSE)
