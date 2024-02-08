@@ -17,7 +17,7 @@
   + Web Framework : Streamlit (ver. 1.31.0)
 
 ### 주요 라이브러리
-  + [requirements.txt](requirements.txt) 파일 참조
+  + [requirements.txt]([requirements.txt](https://github.com/alpha8108/mulcamp240202/blob/main/requirements.txt)) 파일 참조
 
 ## 데모페이지
 - Streamlit에서 구현한 Demo는 다음과 같습니다.
@@ -99,7 +99,7 @@ def send_email(name, email, inquiry_type, inquiry_details):
 
 ## 발표자료 PDF 
 - 발표자료 PDF는 아래와 같습니다.
-  + [portfolio.pdf](portfolio.pdf)
+  + [portfolio.pdf](https://github.com/alpha8108/mulcamp240202/blob/main/portfolio.pdf)
   
 ## License
 - [MIT Licence](링크)
