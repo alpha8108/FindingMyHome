@@ -6,11 +6,12 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from streamlit_option_menu import option_menu
+import email
 
-#SEOUL_PUBLIC_API = st.secrets["api_credentials"]["SEOUL_PUBLIC_API"]
-#MAIL_KEY = st.secrets["api_credentials"]["MAIL_KEY"]
-SEOUL_PUBLIC_API = "####"
-MAIL_KEY = "####"
+SEOUL_PUBLIC_API = st.secrets["api_credentials"]["SEOUL_PUBLIC_API"]
+MAIL_KEY = st.secrets["api_credentials"]["MAIL_KEY"]
+#SEOUL_PUBLIC_API = "####"
+#MAIL_KEY = "####"
 
 @st.cache_data
 def load_data():
@@ -338,6 +339,7 @@ def support_page():
     # 문의 제출 버튼
     if st.button("문의 제출"):
         send_email(name, email, inquiry_type, inquiry_details)
+        st.write("완료")
 
 def main():
     st.set_page_config(
