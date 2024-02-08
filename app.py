@@ -297,7 +297,7 @@ def support_page():
     def send_email(name, email, inquiry_type, inquiry_details):
         # 보내는 사람, 받는 사람 이메일 설정
         sender_email = "rhkrcjswo@gmail.com"  # 보내는 사람 이메일 주소
-        receiver_emails = ["juyoungeeya@gmail.com", "jgp3620@gmail.com", "wls9416@gmail.com", "rhkrcjswo@gmail.com", "jweon96@gmail.com"]  # 받는 사람 이메일 주소
+        receiver_emails = ["rhkrcjswo@gmail.com"]  # 받는 사람 이메일 주소
 
         # 이메일 제목과 내용 설정
         subject = f"새로운 문의: {inquiry_type} - {name}"
